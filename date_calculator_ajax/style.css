@@ -1,0 +1,83 @@
+body {
+  background-image: -webkit-linear-gradient(left, #776d8a 50%, #d3c09a 50%);
+  background-image: -moz-linear-gradient(left, #776d8a 50%, #d3c09a 50%);
+  background-image: -o-linear-gradient(left, #776d8a 50%, #d3c09a 50%);
+  background-image: linear-gradient(to right, #776d8a 50%, #d3c09a 50%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+form {
+  width: auto;
+  height: 250px;
+  border-left: 10px solid #d3c09a;
+  border-right: 10px solid #776d8a;
+  padding: 10px 0;
+  margin: 50px auto;
+  background-image: -webkit-linear-gradient(left, #776d8a 50%, #d3c09a 50%), -webkit-linear-gradient(left, #776d8a 50%, #d3c09a 50%);
+  background-image: -moz-linear-gradient(left, #776d8a 50%, #d3c09a 50%), -moz-linear-gradient(left, #776d8a 50%, #d3c09a 50%);
+  background-image: -o-linear-gradient(left, #776d8a 50%, #d3c09a 50%), -o-linear-gradient(left, #776d8a 50%, #d3c09a 50%);
+  background-image: linear-gradient(to right, #776d8a 50%, #d3c09a 50%), linear-gradient(to right, #776d8a 50%, #d3c09a 50%);
+  background-position: 0 0, 0 100% ;
+  background-repeat: no-repeat;
+  background-size: 100% 10px;
+}
+
+.border {
+  border: #dbdbdb solid 1px;
+}
+table td {
+  padding: 10px;
+
+}
+input[type=file] {
+  border: #c1c1c1 solid 1px;
+  height: 40px;
+  padding: 8px 7px;
+  width: 86%;
+
+}
+
+input, #myOption
+{
+  background-color: rgba(191,220,174,0.9);
+}
+
+table
+{
+  background-color: rgba(0,0,0,0.7);
+  border-style: double;
+  padding: 2em;
+  border: 5px solid #00ffef;
+}
+
+label
+{
+  color: #81b214;
+}
+
+#submit
+{
+  background-color: #ff0000;
+  color: #000;
+  position: relative;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 2px;
+  color: white;
+
+
+}
+
+h1
+{
+  background-color: rgba(255,255,255,0.5);
+  padding: 30px;
+  font-family: arial;
+  border : 1px double black;
+  margin: 20px 0px;
+}
+
